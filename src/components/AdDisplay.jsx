@@ -10,7 +10,7 @@ function AdDisplay() {
   }, []);
 
   return (
-    <div className="w-full my-4">
+    <div>
       <ins className="adsbygoogle"
            style={{ display: 'block' }}
            data-ad-client="ca-pub-3701045347092080"

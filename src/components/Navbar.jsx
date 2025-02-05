@@ -2,7 +2,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiSun, FiMoon, FiBook, FiMenu, FiX, FiMessageSquare, FiHelpCircle, FiHome } from 'react-icons/fi';
 import { useState, useEffect, useRef } from 'react';
-import AdDisplay from './AdDisplay';
 
 function Navbar({ darkMode, setDarkMode }) {
   const location = useLocation();
@@ -152,7 +151,7 @@ function Navbar({ darkMode, setDarkMode }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+            className="fixed inset-0 bg-black/50 z-[9999] lg:hidden"
             onClick={() => setIsMenuOpen(false)}
           />
         )}
@@ -166,7 +165,7 @@ function Navbar({ darkMode, setDarkMode }) {
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ type: "spring", damping: 20, stiffness: 300 }}
-            className="fixed top-0 right-0 h-full w-64 bg-white dark:bg-neutral-900 shadow-xl z-50 lg:hidden"
+            className="fixed top-0 right-0 h-full w-64 bg-white dark:bg-neutral-900 shadow-xl z-[10000] lg:hidden"
           >
             <div className="absolute top-4 right-4">
               <motion.button
@@ -179,9 +178,6 @@ function Navbar({ darkMode, setDarkMode }) {
               </motion.button>
             </div>
 
-            <div className="px-4">
-              <AdDisplay />
-            </div>
          
             <div className="flex flex-col p-4 mt-20">
               {navLinks.map((link) => (

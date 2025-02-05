@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom';
-import AdDisplay from './AdDisplay';
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 
 function Footer() {
   return (
     <footer className="bg-white/50 dark:bg-neutral-900/50 border-t border-neutral-200 dark:border-neutral-800 mt-auto backdrop-blur-sm">
-      <AdDisplay />
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">

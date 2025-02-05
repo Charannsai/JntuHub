@@ -41,15 +41,15 @@ function Home() {
             transition={{ delay: 0.5 }}
             className="grid grid-cols-1 md:grid-cols-3 gap-6"
           >
-            <Link to="/syllabus" aria-label="Navigate to JNTUH syllabus section">
+            <Link to="/chat" aria-label="Navigate to JNTUH syllabus section">
               <motion.div 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="p-6 rounded-xl bg-white dark:bg-zinc-700/50 shadow-lg hover:shadow-xl transition-all"
               >
                 <FiFileText className="text-3xl mb-4 text-blue-500 dark:text-blue-400" />
-                <h2 className="text-lg font-semibold mb-2">View Syllabus</h2>
-                <p className="text-gray-600 dark:text-gray-400">Access course syllabus and requirements</p>
+                <h2 className="text-lg font-semibold mb-2">View Chatbot</h2>
+                <p className="text-gray-600 dark:text-gray-400">Access Our 24/7 Jntuh Chat Assistant for queries regarding your learning and academics.</p>
               </motion.div>
             </Link>
 

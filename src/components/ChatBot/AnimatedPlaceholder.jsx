@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const placeholders = [
   "Get help with your syllabus...",
-  "Know clearing backlogs...",
+  "Know how to clear backlogs...",
   "Find study resources..."
 ];
 
