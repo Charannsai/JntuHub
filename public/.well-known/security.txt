@@ -1,4 +1,3 @@
-Contact: mailto:security@jntuhub.com
+Contact: mailto:contact@jntuhub.com
 Expires: 2024-12-31T23:59:59.000Z
 Preferred-Languages: en
-Policy: https://jntuhub.com/security-policy

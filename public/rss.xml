@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>JNTUHUB Updates</title>
+  <link>https://jntuhub.com</link>
+  <description>Latest updates from JNTUHUB - Your source for JNTUH results, notes, and academic resources</description>
+  <language>en-us</language>
+  <item>
+    <title>Latest JNTUH Results</title>
+    <link>https://jntuhub.com/results</link>
+    <description>Get instant access to the latest JNTUH examination results</description>
+  </item>
+  <item>
+    <title>Updated Study Materials</title>
+    <link>https://jntuhub.com/notes</link>
+    <description>Access comprehensive study materials and notes for all JNTUH courses</description>
+  </item>
+</channel>
+</rss>

@@ -1,7 +1,7 @@
 {
   "name": "JNTUHUB - JNTUH Academic Resources Hub",
   "short_name": "JNTUHUB",
-  "description": "Your comprehensive hub for JNTUH academic resources, including notes, schedules, syllabus, and academic support.",
+  "description": "Get instant access to JNTUH results, notes, syllabus, and academic resources. Your one-stop platform for JNTUH exam updates, study materials, and academic support.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
