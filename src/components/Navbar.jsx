@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiSun, FiMoon, FiBook, FiMenu, FiX, FiMessageSquare, FiHelpCircle, FiHome } from 'react-icons/fi';
 import { useState, useEffect, useRef } from 'react';
+import AdDisplay from './AdDisplay';
 
 function Navbar({ darkMode, setDarkMode }) {
   const location = useLocation();
@@ -178,6 +179,9 @@ function Navbar({ darkMode, setDarkMode }) {
               </motion.button>
             </div>
 
+            <div className="px-4">
+              <AdDisplay />
+            </div>
          
             <div className="flex flex-col p-4 mt-20">
               {navLinks.map((link) => (
