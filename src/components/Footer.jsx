@@ -17,7 +17,7 @@ function Footer() {
             <h4 className="font-semibold mb-4 text-neutral-800 dark:text-neutral-200">Quick Links</h4>
             <ul className="space-y-2">
               <li><Link to="/" className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors">Home</Link></li>
-              <li><Link to="/syllabus" className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors">Syllabus</Link></li>
+              {/* <li><Link to="/syllabus" className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors">Syllabus</Link></li> */}
               <li><Link to="/notes" className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors">Notes</Link></li>
               <li><Link to="/schedule" className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors">Schedule</Link></li>
             </ul>
@@ -35,13 +35,13 @@ function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-neutral-800 dark:text-neutral-200">Connect With Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
+              <a href="github.com/charannsai" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
                 <FiGithub className="text-xl text-neutral-800 dark:text-neutral-200" />
               </a>
-              <a href="#" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
+              <a href="https://linkedin.com/in/charan-sai-pathuri-177a9a282" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
                 <FiLinkedin className="text-xl text-neutral-800 dark:text-neutral-200" />
               </a>
-              <a href="#" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
+              <a href="mailto:pathurisai31@gmail.com" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
                 <FiMail className="text-xl text-neutral-800 dark:text-neutral-200" />
               </a>
             </div>
