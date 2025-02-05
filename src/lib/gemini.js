@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('AIzaSyA-ayNGejO9wwqaVpgdAStU4nHLt48Zwk8');
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
 
 const SYSTEM_PROMPT = `You are JNTUH Assistant, an AI helper designed to support students of Jawaharlal Nehru Technological University, Hyderabad.
 Your responses should be:
