@@ -1,172 +1,83 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#1e40af" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="description" content="JNTUHUB - Access JNTUH results, academic notes, syllabus, schedules, and study materials. Get latest updates on JNTUH exam results, resources, and academic support for engineering students." />
-    <meta name="keywords" content="JNTUH results, JNTUH notes, JNTUH syllabus, JNTU Hyderabad, JNTUH exam results, B.Tech notes, engineering notes, JNTUH academic resources, JNTUH study materials, JNTUH schedules, JNTUH academic calendar, Jawaharlal Nehru Technological University Hyderabad, JNTUH engineering, JNTUH latest updates" />
-    <meta name="author" content="JNTUHUB" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="JNTUHUB - JNTUH Academic Resources Hub" />
-    <meta property="og:description" content="Get instant access to JNTUH results, comprehensive engineering notes, complete syllabus, exam schedules, and academic resources. Stay updated with latest JNTUH notifications." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="JNTUHUB - JNTUH Academic Resources Hub" />
-    <meta name="twitter:description" content="Get instant access to JNTUH results, comprehensive engineering notes, complete syllabus, exam schedules, and academic resources. Stay updated with latest JNTUH notifications." />
-    <meta property="og:image" content="https://jntuhub.com/og-image.jpg" />
-    <meta property="og:image:alt" content="JNTUHUB - JNTUH Academic Resources Interface" />
-    <meta name="twitter:image" content="https://jntuhub.com/og-image.jpg" />
-    <title>JNTUHUB - JNTUH Academic Resources Hub</title>
-    <link rel="canonical" href="https://jntuhub.com" />
-    <meta name="language" content="English" />
-    <meta name="revisit-after" content="1 day" />
-    <link rel="alternate" type="application/rss+xml" title="JNTUHUB Updates" href="/rss.xml" />
-    <meta name="geo.region" content="IN-TG" />
-    <meta name="geo.placename" content="Hyderabad" />
-    <meta name="geo.position" content="17.3850;78.4867" />
-    <meta name="ICBM" content="17.3850, 78.4867" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3701045347092080"
-     crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <link rel="author" href="/humans.txt" />
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "JNTUHUB",
-      "alternateName": "JNTUH Academic Resources Hub",
-      "url": "https://jntuhub.com",
-      "description": "Access JNTUH results, academic notes, syllabus, schedules, and study materials. Get latest updates on JNTUH exam results, resources, and academic support for engineering students.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://jntuhub.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#1e40af" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="canonical" href="https://jntuhub.com" />
+  <link rel="author" href="/humans.txt" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="description" content="Access JNTUH results, academic notes, syllabus, schedules, and study materials. Stay updated with the latest JNTUH academic resources." />
+  <meta name="keywords" content="JNTUH results, JNTUH notes, JNTUH syllabus, JNTUH academic resources" />
+  <meta name="author" content="JNTUHUB" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="1 day" />
+  <meta name="geo.region" content="IN-TG" />
+  <meta name="geo.placename" content="Hyderabad" />
+  <meta name="geo.position" content="17.3850;78.4867" />
+
+  <meta property="og:title" content="JNTUHUB - Academic Resources Hub" />
+  <meta property="og:description" content="Get access to JNTUH results, notes, syllabus, schedules, and academic support." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://jntuhub.com/og-image.jpg" />
+  <meta property="og:image:alt" content="JNTUHUB Academic Hub" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="JNTUHUB - Academic Resources Hub" />
+  <meta name="twitter:description" content="Get access to JNTUH results, notes, syllabus, schedules, and academic support." />
+  <meta name="twitter:image" content="https://jntuhub.com/og-image.jpg" />
+
+  <link rel="alternate" type="application/rss+xml" title="JNTUHUB Updates" href="/rss.xml" />
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3701045347092080" crossorigin="anonymous"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "JNTUHUB",
+    "alternateName": "JNTUH Academic Resources Hub",
+    "url": "https://jntuhub.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://jntuhub.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
     }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://jntuhub.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Notes",
-        "item": "https://jntuhub.com/notes"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Syllabus",
-        "item": "https://jntuhub.com/syllabus"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Schedule",
-        "item": "https://jntuhub.com/schedule"
-      }]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JNTUHUB",
+    "url": "https://jntuhub.com",
+    "logo": "https://jntuhub.com/icon-512x512.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "contact@jntuhub.com"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Telangana",
+      "addressCountry": "IN"
     }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "JNTUHUB",
-      "description": "Your comprehensive hub for JNTUH academic resources, including notes, schedules, syllabus, and academic support.",
-      "url": "https://jntuhub.com",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://jntuhub.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "JNTUHUB",
-      "url": "https://jntuhub.com",
-      "logo": "https://jntuhub.com/icon-512x512.png",
-      "description": "Your comprehensive hub for JNTUH academic resources, results, notes, and support.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Telangana",
-        "addressCountry": "IN"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer support",
-        "email": "contact@jntuhub.com"
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "How can I check JNTUH results?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can check JNTUH results directly through our results section. We provide instant access to all examination results as soon as they are released."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Where can I find JNTUH study materials and notes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "All study materials and notes are available in our notes section, organized by semester and subject for easy access."
-        }
-      }]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://jntuhub.com"
-      },{
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Results",
-        "item": "https://jntuhub.com/results"
-      },{
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Notes",
-        "item": "https://jntuhub.com/notes"
-      },{
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Syllabus",
-        "item": "https://jntuhub.com/syllabus"
-      }]
-    }
-    </script>
-  </body>
+  }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
