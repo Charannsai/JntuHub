@@ -49,7 +49,7 @@ function Home() {
               >
                 <FiFileText className="text-3xl mb-4 text-blue-500 dark:text-blue-400" />
                 <h2 className="text-lg font-semibold mb-2">View Chatbot</h2>
-                <p className="text-gray-600 dark:text-gray-400">Access Our 24/7 Jntuh Chat Assistant for queries regarding your learning and academics.</p>
+                <p className="text-gray-600 dark:text-gray-400">Access Our 24/7 Jntuh Chat Assistant</p>
               </motion.div>
             </Link>
 
