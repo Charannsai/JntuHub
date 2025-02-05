@@ -35,7 +35,7 @@ function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-neutral-800 dark:text-neutral-200">Connect With Us</h4>
             <div className="flex space-x-4">
-              <a href="github.com/charannsai" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
+              <a href="https://github.com/charannsai" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
                 <FiGithub className="text-xl text-neutral-800 dark:text-neutral-200" />
               </a>
               <a href="https://linkedin.com/in/charan-sai-pathuri-177a9a282" className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
